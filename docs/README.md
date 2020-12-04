@@ -23,6 +23,8 @@ Resistor | ? | 1 | LED resistor, Value dependent on the LED
 Capacitor  | 100nF | 1 |
 Wire | | some |
 
+
+
 # Software
 
 ## Code Explanation
@@ -31,9 +33,10 @@ Wire | | some |
 
 ## Dependencies 
 
-- Arduino MIDUSB
+- Arduino MIDUSB 
     - [Reference](https://www.arduino.cc/en/Reference/MIDIUSB)
     - [Repository](https://github.com/arduino-libraries/MIDIUSB)
+    - available under [GNU GPL](https://www.gnu.org/licenses/lgpl-3.0.de.html)
 
 ## Configuration
 The `noteTable` may need configuration/tuning.

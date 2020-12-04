@@ -1,0 +1,69 @@
+{
+    "configurations": [
+        {
+            "name": "!!! WARNING !!! AUTO-GENERATED FILE, PLEASE DO NOT MODIFY IT AND USE https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags"
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "d:/Dateien/Soucecode/Arduino/ProMicroMidiToEurack/ProMicroMidiToEurack/include",
+                "d:/Dateien/Soucecode/Arduino/ProMicroMidiToEurack/ProMicroMidiToEurack/src",
+                "C:/Users/hp/.platformio/lib/MIDIUSB_ID1104/src",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                "C:/Users/hp/.platformio/lib/Adafruit NeoPixel",
+                "C:/Users/hp/.platformio/lib/Mozzi_ID74",
+                "C:/Users/hp/.platformio/lib/Mozzi_ID74/utility",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "C:/Users/hp/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/Dateien/Soucecode/Arduino/ProMicroMidiToEurack/ProMicroMidiToEurack/include",
+                    "d:/Dateien/Soucecode/Arduino/ProMicroMidiToEurack/ProMicroMidiToEurack/src",
+                    "C:/Users/hp/.platformio/lib/MIDIUSB_ID1104/src",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/variants/sparkfun_promicro",
+                    "C:/Users/hp/.platformio/lib/Adafruit NeoPixel",
+                    "C:/Users/hp/.platformio/lib/Mozzi_ID74",
+                    "C:/Users/hp/.platformio/lib/Mozzi_ID74/utility",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "C:/Users/hp/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "C:/Users/hp/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50003",
+                "ARDUINO_AVR_PROMICRO16",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x1B4F",
+                "USB_PID=0x9206",
+                "USB_PRODUCT=\"SparkFun Pro Micro\"",
+                "USB_MANUFACTURER=\"SparkFun\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/hp/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

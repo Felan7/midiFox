@@ -23,13 +23,11 @@ Resistor | ? | 1 | LED resistor, Value dependent on the LED
 Capacitor  | 100nF | 1 |
 Wire | | some |
 
+# Manual
+
+For more Information please refer to the pdf manual.
 
 
-# Software
-
-## Code Explanation
-
-![Block Diagram](BlockDiagrammMidiFox.png "Block Diagram")
 
 ## Dependencies 
 

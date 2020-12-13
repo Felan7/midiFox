@@ -110,8 +110,8 @@ void setup() {
   //SPI
   SPI.begin(); //Begin SPI Comunication
   SPI.setBitOrder(MSBFIRST);
-
 }
+
 /** Build byte A
  * Building byte a by use of the look-up table, than splitting the result 
  * into two bits, which are passed in the form of a vector2 struct.
@@ -123,7 +123,6 @@ vector2 buildA(byte noteByte){
   returnValue.x += tableValue >> 8;
   returnValue.y = (byte) tableValue;
   return returnValue;
-
 }
 
 /** Build byte B
@@ -145,7 +144,6 @@ void sendBytes(vector2 data){
   SPI.transfer(data.y); //send second byte
 
   digitalWrite(CHIP_SELECT_PIN, HIGH); //deactivate DAC Communication
-  
 }
 
 
@@ -155,8 +153,6 @@ void loop() {
   byte header = event.header;
   byte byteTwo = event.byte2;
   byte byteThree = event.byte3;
-
-  
 
   //if midi on
   if(header == 0x09){
